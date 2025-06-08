@@ -47,3 +47,13 @@ bash docker_build.sh
 ```bash
 bash docker_run.sh
 ```
+
+# Chi tiết kỹ thuật
+- Quy trình xử lý dữ liệu trang web : fetch website data, scrape content, process website, prompt template và lưu trữ thông tin vào vector database
+- Sử dụng ConversationBufferMemory từ LangChain, cho phép lưu trữ chuỗi các tin nhắn giữa người dùng và chatbot để tăng tính liên kết trong các phản hồi.
+
+
+# Hướng phát triển
+- Học cách tối ưu thời gian trả lời, chuyển đổi model thành dạng tối ưu hơn
+- Làm việc với nhiều loại dữ liệu hơn
+- Để xử lý các truy vấn phân tích hoặc thống kê, một giải pháp tốt hơn là chuyển sang sử dụng SQL-based chatbot

@@ -1,5 +1,7 @@
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
+
+# cho phép lưu trữ chuỗi các tin nhắn giữa người dùng và chatbot để tăng tính liên kết trong các phản hồi.
 from langchain.memory import ConversationBufferMemory
 from utils.prompt_template import PROMPT
 
