@@ -1,0 +1,4 @@
+Bài viết số 10
+Người dùng cần hiểu giới hạn của mô hình AI để dùng đúng cách.
+Học máy giúp máy tính học từ dữ liệu mà không cần lập trình rõ ràng.
+Bảo mật dữ liệu là thách thức lớn khi dùng AI.

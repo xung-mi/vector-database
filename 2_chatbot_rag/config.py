@@ -1,0 +1,7 @@
+CHUNK_SIZE = 300
+CHUNK_OVERLAP = 50
+TEMPERATURE = 0.7
+MAX_NEW_TOKENS = 256
+
+LLM_MODEL_PATH = "openai-community/gpt2"
+EMBEDDING_MODEL_PATH = "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base"

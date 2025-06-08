@@ -1,0 +1,17 @@
+chromadb[all]
+openai
+python-dotenv
+sentence-transformers
+transformers
+torch
+pinecone
+langchain-pinecone
+pinecone-client
+accelerate
+langchain
+faiss-cpu
+langchain-ollama
+langchain-huggingface
+beautifulsoup4
+langchain-community
+lxml

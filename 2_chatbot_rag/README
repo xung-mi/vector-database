@@ -1,0 +1,16 @@
+chatbot_rag/
+│
+├── main.py                         # Entry point chạy pipeline
+├── config.py                       # Các thông số cấu hình chung
+├── models/
+│   ├── llm_loader.py               # Tải mô hình LLM local (GPT2)
+│   └── embedding_loader.py         # Tải embedding model SimCSE
+│
+├── pipeline/
+│   ├── rag_chain.py                # RAG pipeline với FAISS và RetrievalQA
+│   └── web_scraper.py              # Hàm xử lý website: scrape + phân mảnh
+│
+├── utils/
+│   └── prompt_template.py          # Prompt dùng cho QA
+│
+└── data/                           # Chứa dữ liệu website scrape tạm thời

@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434

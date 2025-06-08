@@ -1,0 +1,4 @@
+Bài viết số 17
+Mô hình nhận diện hình ảnh đã vượt qua năng lực con người ở một số tác vụ.
+AI đang được tích hợp vào thiết bị IoT để làm nhà thông minh.
+Bảo mật dữ liệu là thách thức lớn khi dùng AI.

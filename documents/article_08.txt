@@ -1,0 +1,3 @@
+Bài viết số 8
+AI đang được tích hợp vào thiết bị IoT để làm nhà thông minh.
+Mỗi bước tiến trong AI đều đi kèm câu hỏi đạo đức.

@@ -1,0 +1,3 @@
+Bài viết số 16
+Học máy giúp máy tính học từ dữ liệu mà không cần lập trình rõ ràng.
+Các mô hình ngôn ngữ lớn có thể viết văn bản giống con người.

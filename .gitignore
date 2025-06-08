@@ -1,0 +1,36 @@
+# Bỏ qua file cấu hình môi trường
+.env
+
+# Nếu có thư mục chứa nhiều biến môi trường
+.env.*
+
+# Bỏ qua thư mục virtual environment
+.venv/
+
+# Bỏ qua thư mục cơ sở dữ liệu
+db/
+
+**/__pycache__/
+
+
+# Bỏ qua thư mục chứa model hoặc dữ liệu lớn
+local_models/
+
+# Đề phòng backup hoặc temp file
+*.env.bak
+*.env.tmp
+
+
+*.bin
+*.pt
+*.ckpt
+*.gguf
+*.html
+*.pkl
+*.ipynb_checkpoints/
+__pycache__/
+data/
+local_models/
+bfg-1.14.0.jar
+local_models/
+*.safetensors

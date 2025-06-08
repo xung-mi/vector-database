@@ -1,0 +1,3 @@
+Bài viết số 15
+Giải thích quyết định của AI là yêu cầu quan trọng trong nhiều lĩnh vực.
+Xe tự lái sử dụng cảm biến và thuật toán để di chuyển an toàn.
