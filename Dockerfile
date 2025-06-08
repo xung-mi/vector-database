@@ -15,14 +15,14 @@ RUN apt-get update && apt-get install -y \
     && git lfs install \
     && rm -rf /var/lib/apt/lists/*
 
-# Sao chép mã nguồn vào container
-COPY . /app
+COPY requirements.txt .
 
 # Nâng cấp pip và cài Python packages
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt && rm -rf ~/.cache/pip
 
-# Mở port cho Gradio / FastAPI / Flask hoặc Chroma
+# Sao chép mã nguồn vào container
+COPY . .
+
 EXPOSE 8000
 
 # Chạy app Python

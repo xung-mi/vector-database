@@ -1,0 +1,6 @@
+.git
+*.md
+build/
+.venv/
+db/
+documents/
